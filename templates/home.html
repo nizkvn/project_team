@@ -13,15 +13,19 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
-        <a class="navbar-brand text-white mr-5" href="https://bongdaplus.vn/"><img src="https://lh3.googleusercontent.com/proxy/UJlOYyU2TYFOUsmdM-c7zE_iMWUHFgd_U2naSiqbay906Cx1hqw5i3adwQulBjHh4H0hvysLF7x_MpDCO97Jg_hfHWfN5V0Iel0ciHCmL7Wfx-JFcJu3p2lw9U_xTVlw3xHlPbfbWRrnpyj7PJjHLcnd5MTjTXFv-x4IRI9EhU813YXr3w" width="8%" alt="logo"> BONGDAPLUS.VN</a>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0 bg-white" type="submit">Search</button>
-        </form>
-            
-        </div>
-    </nav>
+    <div class="container my-2">
+        <nav class="navbar bg-light">
+            <div class="d-flex flex-row align-items-center">
+                <div class="p-0"><a class="navbar-brand" href="#"><img src="https://138asia.com/wp-content/uploads/2018/08/bongdaplus.png"
+                    width="150px" alt="logo"></a></div>
+                <div class="p-2"> <a class="btn btn-danger" href="#">HOME</a></div>
+                <div class="p-2"> <a class="btn btn-danger" href="#">VIỆT NAM</a></div>
+                <div class="p-2"> <a class="btn btn-danger" href="#">ANH</a></div>
+                <div class="p-2"> <a class="btn btn-danger" href="#">TÂY BAN NHA</a></div>
+                <div class="p-2"> <a class="btn btn-danger" href="#">THẾ GIỚI</a></div>
+              </div>
+        </nav>
+    </div>
     <main>
         <div class="container">
             {% for primary in data_primary %}
